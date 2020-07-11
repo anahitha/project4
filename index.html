@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <!-- <script src="js/p5.play.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/firebase@6.1.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDlqqZH2Y8IH8wJvWPS2aJpmlQmuKIU3PI",
+        authDomain: "book-6d5fd.firebaseapp.com",
+        databaseURL: "https://book-6d5fd.firebaseio.com",
+        projectId: "book-6d5fd",
+        storageBucket: "book-6d5fd.appspot.com",
+        messagingSenderId: "40498299547",
+        appId: "1:40498299547:web:624841b58900376e7bbc3e"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="user.js"></script>
+    <script src="Settings.mjs"></script>
+    <script src="form.js"></script>
+    <script src="log-in.mjs"></script>
+    <script src="AddBook.mjs"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="canvascontainer">
+        <script src="sketch.js"></script>
+    </div>
+</body>
+
+</html>
